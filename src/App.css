@@ -29,6 +29,12 @@ form {
 .main {
   font-size: 50px;
 }
+.main-buttons{
+  margin:10px
+}
+.weather-icon{
+  font-size:100px;
+}
 .temp-C-unit,
 .temp-F-unit {
   color: #6083d4;

@@ -20,7 +20,6 @@ export default function App() {
 				</div>
 				<Credits />
 			</div>
-			<script src="src/script.js"></script>
 		</div>
 	);
 }
