@@ -1,22 +1,26 @@
 import "./App.css";
 import React from "react";
+import Header from "./Header.js";
+import SearchElement from "./SearchElement.js";
+import MainResults from "./MainResults.js";
+import WeatherDetails from "./WeatherDetails.js";
+import Forecast from "./Forecast.js";
+import Credits from "./Credits.js";
 
-function App() {
+export default function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>Hello World </h1>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+			<div className="container">
+				<Header />
+				<div className="subcontainer">
+					<SearchElement />
+					<MainResults />
+					<WeatherDetails />
+					<Forecast />
+				</div>
+				<Credits />
+			</div>
+			<script src="src/script.js"></script>
 		</div>
 	);
 }
-
-export default App;
