@@ -41,9 +41,10 @@ form {
 }
 
 .big-emoji {
-  font-size: 100px;
+  max-width: 100px;
   text-align: center;
   vertical-align: middle;
+  margin:20px;
 }
 .main-icon {
   line-height: 1px;

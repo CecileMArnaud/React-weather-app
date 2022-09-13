@@ -13,11 +13,11 @@ export default function MainData() {
 			<div>
 				<span className="main main-temperature">17</span>
 				<span id="units">
-					<a href="" id="celsius-link" className="active">
+					<a href="/" id="celsius-link" className="active">
 						˚C
 					</a>{" "}
 					|
-					<a href="" id="fahrenheit-link">
+					<a href="/" id="fahrenheit-link">
 						˚F
 					</a>
 				</span>

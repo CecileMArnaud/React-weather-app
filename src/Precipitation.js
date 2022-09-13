@@ -1,4 +1,5 @@
 import React from "react";
+import PrecipitationIcon from "./media/water-drop.png";
 
 export default function Precipitation() {
 	return (
@@ -6,7 +7,13 @@ export default function Precipitation() {
 			<div className="card mb-3">
 				<div className="row g-0">
 					<div className="col-md-4">
-						<p className="big-emoji">💧</p>
+						<p>
+							<img
+								src={PrecipitationIcon}
+								alt="water drop icon"
+								className="big-emoji"
+							/>
+						</p>
 					</div>
 					<div className="col-md-8">
 						<div className="card-body">
