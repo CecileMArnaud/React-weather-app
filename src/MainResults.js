@@ -2,11 +2,11 @@ import React from "react";
 import MainData from "./MainData.js";
 import MainIcon from "./MainIcon.js";
 
-export default function MainResults() {
+export default function MainResults(props) {
 	return (
 		<div className="row main-results">
-			<MainData />
-			<MainIcon />
+			<MainData data={props.data} />
+			<MainIcon data={props.data} />
 		</div>
 	);
 }

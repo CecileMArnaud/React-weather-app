@@ -1,7 +1,7 @@
 import React from "react";
 import WindIcon from "./media/wind.png";
 
-export default function Wind() {
+export default function Wind(props) {
 	return (
 		<div className="col">
 			<div className="card mb-3">
@@ -14,7 +14,9 @@ export default function Wind() {
 					<div className="col-md-8">
 						<div className="card-body">
 							<h3 className="card-title">Wind</h3>
-							<p className="card-text main main-wind">2km/h</p>
+							<p className="card-text main main-wind">
+								{Math.round(props.data.wind)}km/h
+							</p>
 						</div>
 					</div>
 				</div>

@@ -1,7 +1,7 @@
 import React from "react";
 import PrecipitationIcon from "./media/water-drop.png";
 
-export default function Precipitation() {
+export default function Precipitation(props) {
 	return (
 		<div className="col">
 			<div className="card mb-3">
@@ -18,7 +18,9 @@ export default function Precipitation() {
 					<div className="col-md-8">
 						<div className="card-body">
 							<h3 className="card-title">Precipitation</h3>
-							<p className="card-text main main-humidity">84%</p>
+							<p className="card-text main main-humidity">
+								{props.data.humidity}%
+							</p>
 						</div>
 					</div>
 				</div>
