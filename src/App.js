@@ -67,9 +67,6 @@ export default function App() {
 										value="Search"
 										className="btn btn-primary main-buttons search-button"
 									/>
-									<button className="btn btn-secondary main-buttons current-location">
-										Current Location
-									</button>
 								</form>
 							</div>
 						</div>

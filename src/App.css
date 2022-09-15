@@ -30,7 +30,7 @@ form {
   font-size: 50px;
 }
 .main-buttons{
-  margin:10px
+  margin:10px;
 }
 .weather-icon{
   font-size:100px;
@@ -106,3 +106,4 @@ text-decoration: none;
 color:  #939aa9;
 font-size: 15px;
 }
+
