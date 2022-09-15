@@ -80,14 +80,6 @@ form {
   border: 2px solid rgba(147, 154, 169, 0.5);
 }
 
-#units .active {
-  color: #939aa9;
-  cursor: default;
-  text-decoration: none;
-}
-#units .active:hover {
-  text-decoration: none;
-}
 .subcontainer{
   max-width: 700px;
     margin:0 auto;
@@ -103,4 +95,14 @@ form {
   display:block;
  color: #939aa9;
  font-size: 15px ;
+}
+.units{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.units a{
+text-decoration: none;
+color:  #939aa9;
+font-size: 15px;
 }
