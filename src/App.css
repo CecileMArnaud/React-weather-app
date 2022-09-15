@@ -88,3 +88,19 @@ form {
 #units .active:hover {
   text-decoration: none;
 }
+.subcontainer{
+  max-width: 700px;
+    margin:0 auto;
+
+}
+.container{
+    text-align: center;
+    
+  }
+  .credits{
+  text-align: center;
+  margin:10 auto;
+  display:block;
+ color: #939aa9;
+ font-size: 15px ;
+}

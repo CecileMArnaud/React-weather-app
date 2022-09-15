@@ -1,4 +1,5 @@
 import React from "react";
+import FormattedDate from "./FormattedDate";
 
 export default function MainData(props) {
 	return (
@@ -9,7 +10,9 @@ export default function MainData(props) {
 					<i className="fa-solid fa-spinner fa-spin-pulse"></i>
 				</span>
 			</h2>
-			<div id="today-date">Monday 12th</div>
+			<div id="today-date">
+				<FormattedDate date={props.data.date} />
+			</div>
 			<div>
 				<span className="main main-temperature">
 					{Math.round(props.data.temperature)}
