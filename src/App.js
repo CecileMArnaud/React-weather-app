@@ -59,7 +59,7 @@ export default function App() {
 									className="search-form"
 									onSubmit={handleSubmit}
 								>
-									<label for="search-city">The weather in:</label>
+									<label htmlFor="search-city">The weather in:</label>
 									<input type="text" id="search-city" onChange={handleQuery} />
 									<input
 										type="submit"
