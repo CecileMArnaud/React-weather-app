@@ -13,7 +13,6 @@ export default function App() {
 	const [cityName, setCityName] = useState("Biarritz");
 
 	function getWeather(response) {
-		console.log(response);
 		setWeatherData({
 			ready: true,
 			coordinates: response.data.coord,
@@ -72,7 +71,7 @@ export default function App() {
 						</div>
 						<MainResults data={weatherData} />
 						<WeatherDetails data={weatherData} />
-						<Forecast />
+						<Forecast coordinates={weatherData.coordinates} />
 					</div>
 				</div>
 				<Credits />

@@ -6,7 +6,7 @@ export default function MainIcon(props) {
 		<div className="col-5  main-icon ">
 			<WeatherIcon
 				name="owm"
-				iconId={props.data.icon}
+				iconId={props.data.icon.toString()}
 				flip="horizontal"
 				rotate="90"
 				className="weather-icon"
